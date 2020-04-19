@@ -51,5 +51,5 @@ def run
     elsif input == "exit"
       exit_jukebox
     end
-    end
   end
+end
