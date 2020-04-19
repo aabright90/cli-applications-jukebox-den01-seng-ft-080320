@@ -48,6 +48,8 @@ def run(songs)
       play(songs)
     elsif input == "help"
       help
+    else
+      exit_jukebox
     end
     input = gets.strip
   end
