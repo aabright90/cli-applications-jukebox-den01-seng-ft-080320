@@ -50,6 +50,6 @@ def run(songs)
       help
     end
     input = gets.strip
-    exit_jukebox
   end
+  exit_jukebox
 end
