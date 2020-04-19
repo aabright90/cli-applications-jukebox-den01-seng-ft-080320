@@ -40,6 +40,7 @@ end
 
 def run(songs)
   puts "Please enter a command:"
+  input = gets.strip
   until input == "exit"
     input = gets.strip
     if input == "exit"
